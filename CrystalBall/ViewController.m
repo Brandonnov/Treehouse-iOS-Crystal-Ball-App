@@ -31,7 +31,8 @@
                                 @"It is doubtful",
                                 @"Better not tell you now",
                                 @"Concentrate and ask again",
-                                @"Unable to answer now", nil ];
+                                @"Unable to answer now", 
+                                @"Maybe Yes", nil ];
 	
 }
 
@@ -71,7 +72,8 @@
 
 - (IBAction)buttonPressed:(id)sender {
     
+    NSUInteger index = arc4random_uniform(self.predictionArray.count);
     
-    self.predictionLabel.text = [self.predictionArray objectAtIndex:5];
+    self.predictionLabel.text = [self.predictionArray objectAtIndex:index];
 }
 @end
