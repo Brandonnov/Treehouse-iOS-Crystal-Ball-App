@@ -57,4 +57,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    NSLog(@"button pressed");
+}
 @end
