@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize predictionLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +27,7 @@
 
 - (void)viewDidUnload
 {
+    [self setPredictionLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -58,6 +60,10 @@
 }
 
 - (IBAction)buttonPressed:(id)sender {
-    NSLog(@"button pressed");
+    NSString *myString = @"My name is Kevin";
+    [myString length];
+    [myString uppercaseString];
+    
+    self.predictionLabel.text = @"Definitely Yes";
 }
 @end
