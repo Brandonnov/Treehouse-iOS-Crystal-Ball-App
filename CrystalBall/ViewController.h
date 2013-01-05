@@ -16,6 +16,8 @@
 
 @property (strong, nonatomic) NSArray *predictionArray;
 
+@property (strong, nonatomic) UIImageView *imageView;
+
 
 - (void) makePrediction;
 
