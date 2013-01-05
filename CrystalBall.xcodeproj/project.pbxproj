@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A02720D1698D2450086FCD0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A02720C1698D2450086FCD0 /* background.png */; };
+		4A0272101698D7850086FCD0 /* button_bg_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A02720E1698D7850086FCD0 /* button_bg_off.png */; };
+		4A0272111698D7850086FCD0 /* button_bg_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A02720F1698D7850086FCD0 /* button_bg_on.png */; };
 		4A4056251693EE58004A6DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4056241693EE58004A6DA8 /* UIKit.framework */; };
 		4A4056271693EE58004A6DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4056261693EE58004A6DA8 /* Foundation.framework */; };
 		4A4056291693EE58004A6DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4056281693EE58004A6DA8 /* CoreGraphics.framework */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		4A02720C1698D2450086FCD0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../Users/kevinhorek/Downloads/CrystalBall/CrystalBall/background.png; sourceTree = "<group>"; };
+		4A02720E1698D7850086FCD0 /* button_bg_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_off.png; sourceTree = "<group>"; };
+		4A02720F1698D7850086FCD0 /* button_bg_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_on.png; sourceTree = "<group>"; };
 		4A4056201693EE58004A6DA8 /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4056241693EE58004A6DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A4056261693EE58004A6DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +56,8 @@
 		4A02720A1698D2170086FCD0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4A02720E1698D7850086FCD0 /* button_bg_off.png */,
+				4A02720F1698D7850086FCD0 /* button_bg_on.png */,
 				4A02720C1698D2450086FCD0 /* background.png */,
 			);
 			name = images;
@@ -162,6 +168,8 @@
 				4A40562F1693EE58004A6DA8 /* InfoPlist.strings in Resources */,
 				4A4056381693EE58004A6DA8 /* MainStoryboard.storyboard in Resources */,
 				4A02720D1698D2450086FCD0 /* background.png in Resources */,
+				4A0272101698D7850086FCD0 /* button_bg_off.png in Resources */,
+				4A0272111698D7850086FCD0 /* button_bg_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
